@@ -42,13 +42,15 @@ export default function Hero() {
         >
           View Projects
         </button>
-        <button
-          style={styles.btnSecondary}
-          onMouseEnter={e => e.currentTarget.style.background = '#eaf3de'}
-          onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
-        >
-          Download CV
-        </button>
+        <a href={info.cvPath} download style={{ textDecoration: 'none' }}>
+  <button
+    style={styles.btnSecondary}
+    onMouseEnter={e => e.currentTarget.style.background = '#eaf3de'}
+    onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
+  >
+    Download CV
+  </button>
+</a>
       </div>
 
       {/* Stats row */}

@@ -1,6 +1,7 @@
 export const info = {
     name: "Debleena Bose",
     title: "AngularJS Lead · Senior Frontend Developer · UI Architect",
+    cvPath: "/Debleena_Bose_CV.pdf",
     email: "debleenabose03@gmail.com",
     phone: "+91 7890739909",
     location: "Hyderabad, India",
