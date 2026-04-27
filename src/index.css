@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg-light: #f7f6f3;
+  --bg-dark: #2c2c2a;
+  --bg-white: #ffffff;
+  --bg-muted: #444441;
+  --text-primary: #2c2c2a;
+  --text-muted: #5f5e5a;
+  --text-faint: #888780;
+  --border: #d3d1c7;
+  --green: #3b6d11;
+  --green-light: #eaf3de;
+  --green-mid: #639922;
+  --green-text: #97c459;
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'DM Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-light);
+  color: var(--text-primary);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes sectionPop {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.995);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes heroEnter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
